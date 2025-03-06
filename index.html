@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us - Hospital Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1> Hospitals Contact Support</h1>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>If you have any questions feel free to reach out to us. We're here to help!</p>
+
+      <div class="contact-info">
+        <div class="info-box">
+          <h3>Address</h3>
+          <p>Haripur Sangli Maharashtra pin-416416</p>
+        </div>
+        <div class="info-box">
+          <h3>Phone</h3>
+          <p>9048841809</p>
+        </div>
+        <div class="info-box">
+          <h3>Email</h3>
+          <p>bharatatpadkar@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <form id="contactForm">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div id="formError" class="error-message" style="display: none;">Please fill in all the fields.</div>
+      </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
